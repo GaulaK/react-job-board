@@ -98,3 +98,14 @@ footer p span {
 .borderBeige {
   border: solid 10px #f8c5af;
 }
+
+/* -------------- MEDIA -------------- */
+/* -------------- MEDIA -------------- */
+/* -------------- MEDIA -------------- */
+
+@media (max-width: 1080px) {
+  .jobs {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
