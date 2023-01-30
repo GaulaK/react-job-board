@@ -1,0 +1,100 @@
+.container {
+  margin: 0 auto;
+  max-width: calc(320px * 3 + 60px * 2);
+}
+
+header {
+  background-color: #333333;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin: auto;
+
+  text-align: center;
+}
+
+footer {
+  background-color: #dddddd;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+footer p span {
+  font-weight: bold;
+}
+/* -------------- JOBS LIST -------------- */
+/* -------------- JOBS LIST -------------- */
+/* -------------- JOBS LIST -------------- */
+
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-between;
+  max-width: calc(320px * 3 + 60px * 2);
+  margin: 80px 0;
+}
+
+/* -------------- JOB -------------- */
+.job {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.job h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+.job p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* -- BORDER COLOR -- */
+.borderRed {
+  border: solid 10px red;
+}
+
+.borderGreen {
+  border: solid 10px green;
+}
+
+.borderYellow {
+  border: solid 10px yellow;
+}
+
+.borderBlue {
+  border: solid 10px #039fe3;
+}
+
+.borderBeige {
+  border: solid 10px #f8c5af;
+}

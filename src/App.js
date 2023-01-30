@@ -1,10 +1,19 @@
 import "./App.css";
+import Jobs from "./components/Jobs";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Header title="The Job Board" />
+      <body>
+        <div className="container">
+          <Jobs />
+        </div>
+      </body>
+      <Footer location="Le Reacteur" name="Gauthier Portefaix" />
+    </>
   );
 }
 
