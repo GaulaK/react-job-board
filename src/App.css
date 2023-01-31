@@ -7,7 +7,6 @@ header {
   background-color: #333333;
   height: 100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -23,11 +22,12 @@ h1 {
   text-align: center;
 }
 
+/* -------------- FOOTER -------------- */
+
 footer {
   background-color: #dddddd;
   height: 100px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -42,28 +42,29 @@ footer p {
 footer p span {
   font-weight: bold;
 }
+
 /* -------------- JOBS LIST -------------- */
 /* -------------- JOBS LIST -------------- */
 /* -------------- JOBS LIST -------------- */
 
 .jobs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
-  justify-content: space-between;
   max-width: calc(320px * 3 + 60px * 2);
   margin: 80px 0;
+  gap: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* -------------- JOB -------------- */
 .job {
+  width: 280px;
+  height: 280px;
   padding: 10px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 280px;
-  height: 280px;
-  margin-bottom: 10px;
 }
 
 .job h2 {
@@ -103,9 +104,9 @@ footer p span {
 /* -------------- MEDIA -------------- */
 /* -------------- MEDIA -------------- */
 
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
   .jobs {
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }

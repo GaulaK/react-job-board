@@ -7,11 +7,9 @@ function App() {
   return (
     <>
       <Header title="The Job Board" />
-      <body>
-        <div className="container">
-          <Jobs />
-        </div>
-      </body>
+      <div className="container">
+        <Jobs />
+      </div>
       <Footer location="Le Reacteur" name="Gauthier Portefaix" />
     </>
   );
